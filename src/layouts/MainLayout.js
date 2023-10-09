@@ -8,7 +8,7 @@ import { Outlet } from "react-router-dom"
 
 const MainLayout = ({ openMenuHandler, isOpenMenu, setPaddings, isHamburgerOpen, setIsHamburgerOpen, onChangeLocation }) => {
 	const location = useLocation();
-	const isNotMain = location.pathname !== '/'
+	const isNotMain = location.pathname !== '/evgenybil.site'
 
 	console.log(isNotMain)
 
