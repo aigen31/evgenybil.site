@@ -1,0 +1,21 @@
+.btn {
+  background-color: var(--accent-color);
+  display: inline-block;
+  position: relative;
+  border: 0;
+  font-size: 1.95em;
+  border-radius: 40px;
+  outline: 0;
+	font-weight: 400;
+  cursor: pointer;
+  box-sizing: border-box;
+  text-align: center;
+  text-decoration: 0;
+  transition: all .25s ease;
+  padding: 18px 41px;
+  color: #1F1F20
+}
+
+.btn:hover {
+  background-color: var(--accent-second-color);
+}

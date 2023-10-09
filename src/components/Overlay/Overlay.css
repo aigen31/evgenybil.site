@@ -1,0 +1,26 @@
+@keyframes overlay {
+  from {
+    opacity: 0;
+  } to {
+    opacity: 0.3;
+  }
+}
+
+.overlay {
+  content: '';
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 104;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0;
+}
+
+.overlay.active {
+  opacity: 0.3;
+  display: block;
+  animation: overlay .15s ease;
+}

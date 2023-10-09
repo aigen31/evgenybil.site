@@ -1,0 +1,143 @@
+.social-icon .social__path {
+  transition: fill .15s ease;
+}
+
+.social-icon:hover .social__path {
+  fill: #fff;
+}
+
+.header-main {
+  position: fixed;
+  z-index: 103;
+  left: 0;
+  top: 0;
+  right: var(--header-margin);
+  padding-top: 35px;
+  padding-bottom: 10px;
+}
+
+.header-main::before {
+  content: "";
+  display: none;
+  position: fixed;
+  height: var(--header-height);
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(to top, rgba(31, 31, 31, 0) 0%, #1F1F20 10%);
+}
+
+.header-main.active::before {
+  display: block;
+}
+
+.header-main__container {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+/* .s-nav {
+	animation: fadeOut .15s ease forwards;
+}
+
+.s-nav.active {
+	animation: fadeIn .15s ease forwards;
+} */
+
+
+.s-nav__list {
+	display: flex;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	column-gap: 10px;
+}
+
+.s-nav__item .s-nav__link {
+	color: var(--accent-color);
+	font-size: .9em;
+	font-weight: 500;
+	transition: color .15s ease;
+	text-decoration: none;
+}
+
+.s-nav__item .s-nav__link:hover,
+.s-nav__item .s-nav__link.active {
+	color: #F8F8F8;
+}
+
+.s-nav__item .s-nav__link.active {
+	text-decoration: underline;
+}
+
+.s-nav__container {
+	order: 1;
+	margin-right: auto;
+	transform: translateX(calc(var(--header-margin) / 2));
+}
+
+@media screen and (max-width: 1600px) {
+	.s-nav__container {
+		transform: translateX(0);
+	}
+
+	.s-nav {
+		font-size: 14px;
+	}
+
+	.s-nav {
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.s-nav {
+		font-size: 13px;
+	}
+}
+
+@media screen and (max-width: 992px) {
+
+}
+
+@media screen and (max-width: 992px) and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 992px) {
+
+}
+
+@media screen and (max-width: 768px) {
+	.s-nav__item .s-nav__link {
+		white-space: nowrap;
+	}
+
+	.s-nav__list {
+		column-gap: 5px;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.header-main::before {
+		display: block;
+	}
+
+	.header-main {
+		right: 0;
+	}
+
+	.s-nav__lists {
+		column-gap: 5px;
+	}
+
+	.header-main__container {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.s-nav__list {
+		margin-top: 10px;
+	}
+}
