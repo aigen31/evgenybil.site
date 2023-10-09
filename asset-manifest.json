@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/evgenybil.site/static/css/main.d55740c8.css",
-    "main.js": "/evgenybil.site/static/js/main.553031f0.js",
+    "main.js": "/evgenybil.site/static/js/main.40e97a42.js",
     "static/media/me.jpg": "/evgenybil.site/static/media/me.decbb695b28e4f2b7eaa.jpg",
     "static/media/SFProText-Light.woff2": "/evgenybil.site/static/media/SFProText-Light.bfe3639dbcea45b47f0b.woff2",
     "static/media/SFProText-Medium.woff2": "/evgenybil.site/static/media/SFProText-Medium.86269e5c921a1c6d5d50.woff2",
@@ -61,10 +61,10 @@
     "static/media/arr-ac.svg": "/evgenybil.site/static/media/arr-ac.22fa7d9152411546e6e5.svg",
     "static/media/close.svg": "/evgenybil.site/static/media/close.b85ba0ea83899e8e9c77.svg",
     "main.d55740c8.css.map": "/evgenybil.site/static/css/main.d55740c8.css.map",
-    "main.553031f0.js.map": "/evgenybil.site/static/js/main.553031f0.js.map"
+    "main.40e97a42.js.map": "/evgenybil.site/static/js/main.40e97a42.js.map"
   },
   "entrypoints": [
     "static/css/main.d55740c8.css",
-    "static/js/main.553031f0.js"
+    "static/js/main.40e97a42.js"
   ]
 }
