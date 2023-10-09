@@ -13,7 +13,7 @@ const MainLayout = ({ openMenuHandler, isOpenMenu, setPaddings, isHamburgerOpen,
 	console.log(isNotMain)
 
 	useEffect(() => {
-		location.pathname !== '/' ? onChangeLocation(true) :  onChangeLocation(false)
+		location.pathname !== '/evgenybil.site' ? onChangeLocation(true) :  onChangeLocation(false)
 	}, [location])
 
 	return (

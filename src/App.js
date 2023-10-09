@@ -31,7 +31,7 @@ function App() {
 		<BrowserRouter>
 			<div className="App" style={{ '--header-height': headerHeight }}>
 				<Routes>
-					<Route path="/" element={<MainLayout
+					<Route path="/evgenybil.site" element={<MainLayout
 						openMenuHandler={openMenuHandler}
 						isOpenMenu={isOpenMenu}
 						setPaddings={setPaddings}
