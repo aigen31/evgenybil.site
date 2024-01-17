@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/evgenybil.site/static/css/main.d55740c8.css",
-    "main.js": "/evgenybil.site/static/js/main.0384b49d.js",
+    "main.css": "/evgenybil.site/static/css/main.b967e701.css",
+    "main.js": "/evgenybil.site/static/js/main.d20c41c7.js",
     "static/media/me.jpg": "/evgenybil.site/static/media/me.decbb695b28e4f2b7eaa.jpg",
     "static/media/SFProText-Light.woff2": "/evgenybil.site/static/media/SFProText-Light.bfe3639dbcea45b47f0b.woff2",
     "static/media/SFProText-Medium.woff2": "/evgenybil.site/static/media/SFProText-Medium.86269e5c921a1c6d5d50.woff2",
@@ -39,6 +39,7 @@
     "static/media/devicon_react-wordmark.svg": "/evgenybil.site/static/media/devicon_react-wordmark.375f7ce5a76739c94b9d9e6d30e5d548.svg",
     "static/media/logos_git.svg": "/evgenybil.site/static/media/logos_git.44917e7f4227bfa9aa0fdfdeae0788c3.svg",
     "static/media/bxl_php.svg": "/evgenybil.site/static/media/bxl_php.6bc8cdd5f518ea1d73a39b640d24d0a5.svg",
+    "index.html": "/evgenybil.site/index.html",
     "static/media/slick.svg": "/evgenybil.site/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/devicon-plain_woocommerce.svg": "/evgenybil.site/static/media/devicon-plain_woocommerce.aac68a874a3897c9e69d842d6261b109.svg",
     "static/media/slick.eot": "/evgenybil.site/static/media/slick.a4e97f5a2a64f0ab1323.eot",
@@ -49,7 +50,6 @@
     "static/media/logos_html-5.svg": "/evgenybil.site/static/media/logos_html-5.3c262723ce5c127efb787fddc013a151.svg",
     "static/media/logos_css-3.svg": "/evgenybil.site/static/media/logos_css-3.eafbd6f509d66022cbdea557b7517b79.svg",
     "static/media/bg-main.svg": "/evgenybil.site/static/media/bg-main.2c3adb09a650dd5f4063.svg",
-    "index.html": "/evgenybil.site/index.html",
     "static/media/without_avatar.svg": "/evgenybil.site/static/media/without_avatar.0c787d52b46c9fe5c82340a52148f543.svg",
     "static/media/arr-white.svg": "/evgenybil.site/static/media/arr-white.62c12aa541b178e09167.svg",
     "static/media/slider-down-wh.svg": "/evgenybil.site/static/media/slider-down-wh.99bf33f98d1faf83ff149352411d74f1.svg",
@@ -60,11 +60,11 @@
     "static/media/slider-up.svg": "/evgenybil.site/static/media/slider-up.6e74b411df942d3ae257cdae9c10fd03.svg",
     "static/media/arr-ac.svg": "/evgenybil.site/static/media/arr-ac.22fa7d9152411546e6e5.svg",
     "static/media/close.svg": "/evgenybil.site/static/media/close.b85ba0ea83899e8e9c77.svg",
-    "main.d55740c8.css.map": "/evgenybil.site/static/css/main.d55740c8.css.map",
-    "main.0384b49d.js.map": "/evgenybil.site/static/js/main.0384b49d.js.map"
+    "main.b967e701.css.map": "/evgenybil.site/static/css/main.b967e701.css.map",
+    "main.d20c41c7.js.map": "/evgenybil.site/static/js/main.d20c41c7.js.map"
   },
   "entrypoints": [
-    "static/css/main.d55740c8.css",
-    "static/js/main.0384b49d.js"
+    "static/css/main.b967e701.css",
+    "static/js/main.d20c41c7.js"
   ]
 }
