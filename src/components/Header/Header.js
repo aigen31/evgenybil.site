@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react'
 import { NavLink, useLocation } from 'react-router-dom'
 import './Header.css'
 
-const Header = ({ setPaddings }) => {
+const Header = ({ setPaddings, isNotMain }) => {
 	const location = useLocation();
 	const header = useRef(null)
 
@@ -12,7 +12,7 @@ const Header = ({ setPaddings }) => {
 	
 	return (
 		<header
-			className="header-main"
+			className={`header-main ${isNotMain ? `active` : ``}`}
 			ref={header}
 		>
 			<div className="container header-main__container">

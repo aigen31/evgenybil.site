@@ -31,7 +31,8 @@ function App() {
 		<BrowserRouter>
 			<div className="App" style={{ '--header-height': headerHeight }}>
 				<Routes>
-					<Route path="/evgenybil.site" element={<MainLayout
+					<Route path="/" element={<MainLayout
+						className={`MainLayout`}
 						openMenuHandler={openMenuHandler}
 						isOpenMenu={isOpenMenu}
 						setPaddings={setPaddings}
@@ -110,7 +111,7 @@ function App() {
 											</a>
 											, чтобы обсудить твои идеи и начать работу над твоим новым веб-проектом.
 										</p>
-										<button
+										<Button
 											className="btn s__btn"
 											data-event="modal"
 											role="button"
@@ -118,7 +119,7 @@ function App() {
 											aria-label="Открыть модальное окно"
 										>
 											Отправить заявку
-										</button>
+										</Button>
 									</div>
 									<div className="col s-about__col s-about__col--right">
 										<img
@@ -168,7 +169,7 @@ function App() {
 										https://vk.com/aigen_31
 									</a>
 								</p>
-								<button
+								<Button
 									className="btn s__btn"
 									data-event="modal"
 									role="button"
@@ -176,7 +177,7 @@ function App() {
 									aria-label="Открыть модальное окно"
 								>
 									Отправить заявку
-								</button>
+								</Button>
 							</div>
 
 						</Section>} />
@@ -296,7 +297,7 @@ function App() {
 									</tbody>
 								</table>
 								<div className="row">
-									<button
+									<Button
 										className="btn s-services__btn"
 										id="s-main__btn"
 										data-event="modal"
@@ -305,7 +306,7 @@ function App() {
 										aria-label="Открыть модальное окно"
 									>
 										Оставить заявку
-									</button>
+									</Button>
 								</div>
 							</div>
 						</Section>} />
@@ -469,7 +470,7 @@ function App() {
 											управления сайтами, начиная от создания внешнего вида и взаимодействия с
 											пользователем до обработки данных и управления контентом.
 										</p>
-										<button
+										<Button
 											className="btn s__btn"
 											data-event="modal"
 											role="button"
@@ -477,7 +478,7 @@ function App() {
 											aria-label="Открыть модальное окно"
 										>
 											Отправить заявку
-										</button>
+										</Button>
 									</div>
 								</div>
 							</>
@@ -491,7 +492,7 @@ function App() {
 								<div className="container s-faq__container">
 									<div className="col s-faq__col">
 										<FaqAccordion />
-										<button
+										<Button
 											className="btn s__btn"
 											data-event="modal"
 											role="button"
@@ -499,7 +500,7 @@ function App() {
 											aria-label="Открыть модальное окно"
 										>
 											Отправить заявку
-										</button>
+										</Button>
 									</div>
 								</div>
 							</>

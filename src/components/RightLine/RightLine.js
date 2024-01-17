@@ -6,7 +6,7 @@ const RightLine = ({ openMenuHandler, isHamburgerOpen, setIsHamburgerOpen, isNot
 	return (
 		<div className="right-line">
 			{isNotMain ?
-				<Link to="/evgenybil.site" className="hamburger-react-link">
+				<Link to="/" className="hamburger-react-link">
 					<Hamburger toggled={true} />
 				</Link> :
 				<Hamburger toggled={isHamburgerOpen} toggle={setIsHamburgerOpen} onToggle={openMenuHandler} />}
